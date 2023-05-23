@@ -145,7 +145,8 @@ system2("powershell.exe", args = c("Get-EventLog", "-LogName", "System", "-Newes
 [32] "    2157 \xac\xa0\xa9 23 20:32  Information Microsoft-Windows...           27 \x8d\xa5 \xad\xa0\xa9\xa4\xa5\xad\xae \xae\xaf\xa8ᠭ\xa8\xa5 \xa4\xab\xef ᮡ\xeb\xe2\xa8\xef \xe1 \xaa\xae\xa4\xae\xac '27' \xa2 ..."                                   
 [33] "    2156 \xac\xa0\xa9 23 20:32  Information Microsoft-Windows...           25 \x8d\xa5 \xad\xa0\xa9\xa4\xa5\xad\xae \xae\xaf\xa8ᠭ\xa8\xa5 \xa4\xab\xef ᮡ\xeb\xe2\xa8\xef \xe1 \xaa\xae\xa4\xae\xac '25' \xa2 ..."                                   
 [34] ""                                                                                                                                                                                                                                                   
-[35] ""                                                                                                                                                     ```                                                                                              
+[35] ""                                                                                                                                                     
+```                                                                                              
 
 ### Оценка результата
 
