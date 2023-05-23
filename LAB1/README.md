@@ -25,6 +25,7 @@
 ```{r}
 system2("systeminfo", stdout = TRUE)
 ```
+```
  [1] ""                                                                                                                                                                                                     
  [2] "\x88\xac\xef 㧫\xa0:                         DESKTOP-RP0F6MU"                                                                                                                                         
  [3] "\x8d\xa0\xa7\xa2\xa0\xad\xa8\xa5 \x8e\x91:                      \x8c\xa0\xa9\xaa\xe0\xae\xe1\xae\xe4\xe2 Windows 10 \x84\xae\xac\xa0\xe8\xad\xef\xef \xa4\xab\xef \xae\xa4\xad\xae\xa3\xae \xef\xa7몠"
@@ -91,20 +92,24 @@ system2("systeminfo", stdout = TRUE)
 [64] "                                  \x82\xa8\xe0\xe2㠫\xa8\xa7\xa0\xe6\xa8\xef \xa2\xaa\xab\xee祭\xa0 \xa2\xae \xa2\xe1\xe2\u0ba5\xad\xad\xae\xac \x8f\x8e: \x84\xa0"                                   
 [65] "                                  \x8f८\xa1ࠧ\xae\xa2\xa0\xad\xa8\xa5 \xa0\xa4\xe0\xa5ᮢ \xa2\xe2\xaeண\xae \xe3\u0ba2\xad\xef: \x84\xa0"                                                                  
 [66] "                                  \x84\xae\xe1\xe2㯭\xae \xaf।\xae\xe2\xa2\xe0\xa0饭\xa8\xa5 \xa2믮\xab\xad\xa5\xad\xa8\xef \xa4\xa0\xad\xad\xeb\xe5: \x84\xa0"                                                                      
+```
 
 2\. Далее применяем команду system("wmic cpu get name") для вывода информации о процессоре
 
 ```{r}
 system2("cmd", args = c("/c", "wmic cpu get name"), stdout = TRUE)
 ```
+```
 [1] "Name                                      \r" 
 [2] "Intel(R) Core(TM) i3-8130U CPU @ 2.20GHz  \r"
-[3] "\r"                                          
+[3] "\r"
+```
 
 3\. Также выполним команду system("powershell.exe Get-EventLog -LogName System -Newest 30") для вывода логов
 
 ```{r}
 system2("powershell.exe", args = c("Get-EventLog", "-LogName", "System", "-Newest", "30"), stdout = TRUE)
+```
 ```
  [1] ""                                                                                                                                                                                                                                                   
  [2] "   Index Time          EntryType   Source                 InstanceID Message                                           "                                                                                                                            
@@ -140,7 +145,7 @@ system2("powershell.exe", args = c("Get-EventLog", "-LogName", "System", "-Newes
 [32] "    2157 \xac\xa0\xa9 23 20:32  Information Microsoft-Windows...           27 \x8d\xa5 \xad\xa0\xa9\xa4\xa5\xad\xae \xae\xaf\xa8ᠭ\xa8\xa5 \xa4\xab\xef ᮡ\xeb\xe2\xa8\xef \xe1 \xaa\xae\xa4\xae\xac '27' \xa2 ..."                                   
 [33] "    2156 \xac\xa0\xa9 23 20:32  Information Microsoft-Windows...           25 \x8d\xa5 \xad\xa0\xa9\xa4\xa5\xad\xae \xae\xaf\xa8ᠭ\xa8\xa5 \xa4\xab\xef ᮡ\xeb\xe2\xa8\xef \xe1 \xaa\xae\xa4\xae\xac '25' \xa2 ..."                                   
 [34] ""                                                                                                                                                                                                                                                   
-[35] ""                                                                                                                                                                                                                                                   
+[35] ""                                                                                                                                                     ```                                                                                              
 
 ### Оценка результата
 
