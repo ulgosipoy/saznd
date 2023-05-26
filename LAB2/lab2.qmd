@@ -1,7 +1,10 @@
 ---
 title: "lab2"
-format: html
-editor: visual
+author: Калбак Долума БИСО-01-20
+format:
+    md:
+        output-file: README.md
+engine: knitr
 ---
 
 # Сбор и аналитическая обработка информации о сетевом трафике
