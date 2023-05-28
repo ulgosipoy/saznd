@@ -31,7 +31,7 @@
 
 Юридический адрес - 115035, г. Москва, вн.тер.г. Муниципальный Округ Замоскворечье, ул Садовническая, д. 57 стр. 2, этаж 1, помещ. III
 
-[Источник]([https://www.rusprofile.ru/id/10165631](https://zachestnyibiznes.ru/company/ul/5157746309518_7719435412_OOO-INTELLEKTUALYNAYa-BEZOPASNOSTY))
+[Источник](https://www.list-org.com/company/8307393)
 
 ### 2. Структура компании
 
