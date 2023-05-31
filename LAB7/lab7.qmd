@@ -1,0 +1,14 @@
+---
+title: "lab7"
+author: Калбак Долума БИСО-01-20
+format:
+    md:
+        output-file: README.md
+engine: knitr
+---
+
+# Quarto & Github Pages
+
+Kalbak Doluma BISO-01-20
+
+Созданный сайт: https://ulgosipoy.github.io/ulgosipoyo.github.io/
