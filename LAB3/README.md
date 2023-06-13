@@ -317,7 +317,7 @@ docker-compose up -d
 ```()
 GET _cat/indices
 ```
-![image](https://github.com/ulgosipoy/saznd/assets/133878924/3511049f-2cbb-4a68-aa82-ae8b6f323af9)
+![image](https://github.com/ulgosipoy/saznd/assets/133878924/3ea8814a-ddf2-4e29-ab50-c675069722e6)
 
 #### 3. Переходим в раздел "Discover" и создаем новый data view
 
