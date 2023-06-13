@@ -306,7 +306,7 @@ docker-compose up -d
 ```
 ![image](https://github.com/ulgosipoy/saznd/assets/133878924/334f902f-d25f-40fd-9650-79881328da5b)
 
-### Шаг 5. Работа с Elasticsearch
+### Шаг 5.
 
 #### 1. Заходим на localhost:5601 и авторизируемся через пользователя elastic
 
