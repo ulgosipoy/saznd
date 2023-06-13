@@ -323,7 +323,7 @@ GET _cat/indices
 
 ![image](https://github.com/ulgosipoy/saznd/assets/133878924/3a8eb6a6-d564-402f-845f-7efd8c8df04d)
 
-#### 5. Полученная статистика
+#### 4. Полученная статистика
 
 Packetbeat:
 
